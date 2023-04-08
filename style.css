@@ -1,0 +1,101 @@
+/* Estilo para el supertítulo */
+h1 {
+	font-size: 32px;
+	color: #ea0000; /* Color verde */
+	text-align: center;
+}
+
+/* Estilo para la barra horizontal de navegación */
+nav {
+	background-color: #ea0000; /* Color verde */
+	padding: 10px;
+}
+
+nav a {
+	color: #fff; /* Color blanco */
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+/* Estilo para el buscador moderno */
+form {
+	text-align: center;
+	margin-top: 20px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	padding: 8px;
+	font-size: 16px;
+	width: 500px;
+	margin-right: 10px;
+}
+
+button[type="submit"] {
+	padding: 8px 15px;
+	font-size: 16px;
+	background-color: #ea0000; /* Color verde */
+	color: #fff; /* Color blanco */
+	border: none;
+	cursor: pointer;
+}
+
+/* Estilo para el pie de página */
+footer {
+	background-color: #ea0000; /* Color verde */
+	padding: 10px;
+	text-align: center;
+	color: #fff; /* Color blanco */
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+/* Estilos para la sección de lugares recomendados */
+section {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+/* Estilos para el título de la sección */
+h2 {
+	color: #ea0000;
+	font-size: 24px;
+}
+
+/* Estilos para cada lugar recomendado */
+.lugar {
+	margin-bottom: 20px;
+}
+
+/* Estilos para la imagen del lugar */
+.lugar img {
+	width: 20%;
+	height: auto;
+}
+
+/* Estilos para el nombre del lugar */
+.lugar h3 {
+	margin-top: 10px;
+	color: #000000;
+	font-size: 18px;
+}
+
+/* Estilos para la calificación de los usuarios */
+.calificacion {
+	margin-top: 5px;
+}
+
+/* Estilos para las estrellas de la calificación */
+.calificacion img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	filter: invert(17%) sepia(95%) saturate(5676%) hue-rotate(349deg) brightness(90%) contrast(101%);
+}

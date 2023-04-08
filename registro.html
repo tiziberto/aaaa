@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Pag de reservas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>    
+    <h1>NOMBRE</h1>
+    <nav>
+		<a href="index.html">Inicio</a>
+        <a href="reservar.html">Como reservar?</a>
+		<a href="registro.html">Registrarse</a>
+		<a href="iniciosesion.html">Iniciar Sesión</a>
+        <a href="#">Sobre Nosotros</a>
+	</nav>
+    <br>
+    <form action="registrarse.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+      
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+
+        <label for="Contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br>
+
+        <label for="Confirmar contraseña">Confirmar contraseña:</label>
+        <input type="password" id="confir_contraseña" name="confir_contraseña" required><br>
+        
+        <label for="documento">Documento:</label>
+        <input type="text" id="documento" name="documento" required><br>
+      
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+      
+        <label for="provincia">Provincia de residencia:</label>
+        <select name="provincia">
+            <option value="">Selecciona una provincia</option>
+            <option value="Buenos Aires">Buenos Aires</option>
+            <option value="Catamarca">Catamarca</option>
+            <option value="Chaco">Chaco</option>
+            <option value="Chubut">Chubut</option>
+            <option value="Córdoba">Córdoba</option>
+            <option value="Corrientes">Corrientes</option>
+            <option value="Entre Ríos">Entre Ríos</option>
+            <option value="Formosa">Formosa</option>
+            <option value="Jujuy">Jujuy</option>
+            <option value="La Pampa">La Pampa</option>
+            <option value="La Rioja">La Rioja</option>
+            <option value="Mendoza">Mendoza</option>
+            <option value="Misiones">Misiones</option>
+            <option value="Neuquén">Neuquén</option>
+            <option value="Río Negro">Río Negro</option>
+            <option value="Salta">Salta</option>
+            <option value="San Juan">San Juan</option>
+            <option value="San Luis">San Luis</option>
+            <option value="Santa Cruz">Santa Cruz</option>
+            <option value="Santa Fe">Santa Fe</option>
+            <option value="Santiago del Estero">Santiago del Estero</option>
+            <option value="Tierra del Fuego">Tierra del Fuego</option>
+            <option value="Tucumán">Tucumán</option>
+        </select><br>
+        <button type="submit">Enviar</button>
+    </form>      
+    <br>
+    <ul>
+		<li>Email: <a href="mailto:mail@gmail.com">mail@gmail.com</a></li>
+		<li>Dirección: Callefalsa 123, Villa Carlos Paz</li>
+	</ul>
+    <footer>
+		<p>&copy; 2023 Gato por liebre S.A. Todos los derechos reservados.</p>
+	</footer>
+</body>
